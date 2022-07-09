@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: ;
+        margin:0px;
+        padding:0px;
+        height:2000px;
+    }
+    .navbar{
+        display: flex;
+        
+        position: sticky;
+        text-decoration: none3;
+   
+    }
+    .navbar a{
+        padding: 10px;
+        width:40%;
+        font-size: 30px;
+        color:blue;
+        text-decoration: none;
+    }
+    .navbar a:hover
+    {
+       background-color: rgb(109, 109, 109);
+        color:white;
+    }
+    .loader-wrapper{
+        width:80px;
+        height:80px;
+        position: relative;
+    }
+    .loader{
+        box-sizing: border-box;
+        width:100%;
+        height:100%;
+        border: 1px solid #11e6f1;
+        border-top-color: rgba(rgba(246, 9, 9, 0.745), green, rgb(149, 255, 0), alpha);
+        border-bottom-color: #90f708;
+        border-radius: 50%;
+        animation: rotate 5s linear infinite;
+    }
+        loader-inner{
+            border-top-color: #ea36f3; 
+            border-bottom-color:#fff;
+            animation-duration:2.5s;
+
+    }
+    @keyframes rotate{
+        0%{
+            transform: scale(1); rotate: (360deg);
+        }
+        50%{
+            transform: scale(.8); rotate:(-360deg);
+        }
+    }
+    .sign{
+        background-color: red;
+     
+       border-color: rgb(235, 174, 174)(183, 170, 170);
+       border-radius: 4px;
+    }
+    .sin{
+        padding-left: 850px;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 150;
+        margin: 40px 0px 0px 30px;
+
+      }
+      .img1{
+        opacity: 0.6;
+        margin-left: 9px;
+        margin-top: 100px;
+        height: 100px;
+        width: 1500px;
+      }
+      .second{
+        position: relative;
+        margin: 200px 0px 0px 20px;
+        
+      }
+      img2{
+        height: 10px;
+        width: 10px;
+      }
+</style>
+<body>
+    <header>
+  <nav class="navbar">
+      <div class="navd" id="nav1">
+          <a href="index1.html">Home</a>
+      </div>
+      <br>
+      <div id="nav2">
+          <a href="index2.html">About</a>
+      </div>
+      <div id="nav3">
+        <a href="index3.html">Contact</a>
+      </div>
+      <div id="nav4">
+        <a href="index4.html">Other</a>
+      </div>
+      <div>
+        <div class="sin">
+            <input class="sign" type="button" value="Sign in">
+            <select name="languages" id="languagesselected" class="lang">
+            <option value="English" selected>English</option>
+            <option value="Hindi">Hindi</option>
+          </select>
+       </div>
+      </div>
+      <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader loader-inner"></div>
+        </div>
+    </div>
+</header>  
+
+    <div class="comtainer">
+        <div class="img1"><img src="1431610.jpg" alt="image" style="height: 700px; width:1600px;">
+            <div class="centered">A journey of thousand miles begins with a single step.</div>
+        </div>
+     <div class="centered">A journey of thousand miles begins with a single step.</div>
+          </div>
+
+       
+    </div>
+<div class="second" >OUR SERVICES </div>
+<div class="img2"><img src="img1.webp" alt="image" style="height: 450px;"></div>
+  
+  </nav>
+</body>
+</html>
